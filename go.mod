@@ -1,4 +1,4 @@
-module github.com/JBaguley/go-lambda
+module github.com/JBaguley/go-lambda-template
 
 go 1.13
 
