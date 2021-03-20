@@ -46,5 +46,5 @@ clean:
 	-@rm -rf localstack/response
 
 cucumber:
-	@cd test;\
+	@cd test/cucumber;\
 		godog
