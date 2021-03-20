@@ -18,7 +18,7 @@ setup:
 
 build:
 	@echo "Compiling..."
-	@GOOS=linux go build -o localstack/build/main src/main.go
+	@GOOS=linux go build -o localstack/build/main main.go
 	@echo "Zipping..."
 	@zip localstack/build/function.zip localstack/build/main
 
