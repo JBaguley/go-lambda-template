@@ -44,3 +44,7 @@ clean:
 	@echo "Cleaning up..."
 	-@rm -rf localstack/build
 	-@rm -rf localstack/response
+
+cucumber:
+	@cd test;\
+		godog
